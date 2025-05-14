@@ -14,7 +14,7 @@ from missod.modeling.meta_arch.rcnn import TwoStagePseudoLabGeneralizedRCNN
 from missod.modeling.proposal_generator.rpn import PseudoLabRPN
 from missod.modeling.roi_heads.roi_heads import StandardROIHeadsPseudoLab
 
-from MISSOD.missod.modeling.mhfpn import build_resnet_mhfpn2_backbone
+from missod.modeling.mhfpn import build_resnet_mhfpn_backbone
 import missod.data.datasets.builtin
 
 from missod.modeling.meta_arch.ts_ensemble import EnsembleTSModel
